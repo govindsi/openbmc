@@ -31,7 +31,7 @@ IMAGE_TYPES_MASKED += "mtd-static mtd-static-alltar mtd-static-tar mtd-ubi mtd-u
 
 # Flash characteristics in KB unless otherwise noted
 DISTROOVERRIDES .= ":flash-${FLASH_SIZE}"
-FLASH_SIZE ?= "32768"
+FLASH_SIZE ?= "131072"
 FLASH_PEB_SIZE ?= "64"
 # Flash page and overhead sizes in bytes
 FLASH_PAGE_SIZE ?= "1"
